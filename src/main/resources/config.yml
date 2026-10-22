@@ -1,0 +1,9 @@
+# Currency symbol shown in menus and messages.
+currency-symbol: "$"
+
+# Minimum and maximum wager per player.
+minimum-bet: 1
+maximum-bet: 1000000000
+
+# Player UUIDs who disabled coinflip announcements are stored here automatically.
+notifications-disabled: []
