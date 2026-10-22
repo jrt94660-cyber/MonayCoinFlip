@@ -1,0 +1,16 @@
+name: MonayCoinFlip
+version: 1.0.0
+main: com.monay.coinflip.MonayCoinFlip
+api-version: '1.21'
+author: Monay
+depend: [Vault]
+commands:
+  coinflip:
+    description: Browse and create coinflips
+    usage: /coinflip [toggle|add <amount>]
+    aliases: [cf]
+permissions:
+  monaycoinflip.use:
+    default: true
+  monaycoinflip.admin:
+    default: op
